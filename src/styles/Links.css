@@ -1,0 +1,28 @@
+.link{
+    display:flex;
+    flex-direction: row;
+    flex-grow: 1;
+    flex-shrink: 1;
+    font-size: 0.9rem;
+    justify-content: space-between;
+    padding: 10px;
+}
+.link img{
+    width: 15px;
+    height: 15px;
+}
+.links{
+    display: flex;
+    flex-direction: row;
+}
+.link:hover{
+    background-color: aqua;
+    cursor: pointer;
+    border-radius: 8px;
+    padding: 10px;
+}
+link::after{
+    background-color: aqua;
+    border-radius: 7px;
+    justify-content: center;
+}

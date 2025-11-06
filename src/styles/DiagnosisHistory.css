@@ -1,0 +1,56 @@
+.diagnosis {
+  background-color: white;
+  border-radius: 20px;
+  padding: 20px;
+  flex: 2;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.diagnosis-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.diagnosis-header h3 {
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+.bp-chart {
+  background-color: #f8f5ff;
+  border-radius: 15px;
+  padding: 15px;
+}
+
+.vitals {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.vital-card {
+  flex: 1;
+  background-color: #f9f9f9;
+  border-radius: 15px;
+  padding: 15px;
+  text-align: center;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+}
+
+.vital-card h4 {
+  font-size: 0.9rem;
+  color: gray;
+}
+
+.vital-card h2 {
+  font-size: 1.4rem;
+  margin: 8px 0;
+}
+
+.vital-card span {
+  color: gray;
+  font-size: 0.85rem;
+}

@@ -1,0 +1,85 @@
+.patient {
+    background-color: whitesmoke;
+    width: 18%;
+    margin-top: 15px;
+    border-radius: 25px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    max-height: 500px; 
+    overflow-y: auto; 
+}
+
+
+.patient-title {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+    position: sticky;
+    top: 0;
+    background-color: whitesmoke; /* keeps header visible while scrolling */
+    z-index: 2;
+}
+
+.patient-title h2 {
+    font-size: 1.2rem;
+    margin: 0;
+}
+
+.patient-title img {
+    height: 18px;
+    cursor: pointer;
+}
+
+.completeDetails {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.patientDetails {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    border-radius: 15px;
+    padding: 8px 10px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+}
+
+.patientDetails img:first-child {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.patientname {
+    flex: 1;
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.patientname b {
+    font-size: 0.95rem;
+    color: #333;
+}
+
+.patientname span {
+    font-size: 0.8rem;
+    color: gray;
+}
+
+.patientDetails img:last-child {
+    height: 10px;
+    
+}
+.patientDetails:hover{
+    cursor: pointer;
+    background-color: aqua;
+}
